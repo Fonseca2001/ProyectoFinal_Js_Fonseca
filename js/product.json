@@ -1,0 +1,34 @@
+[
+ {
+    "id": "01",
+    "nombre": "Volkswagen UP!",
+    "precio": 29990,
+    "descripcion":
+      "5-speed manual box. Multifunction steering wheel.",
+    "imagen": "./img/up.jpeg"
+  },
+  {
+    "id": "02",
+    "nombre": "Volkswagen Gol",
+    "precio": 21990,
+    "descripcion":
+      "It replaced the Volkswagen Brasilia as a low-cost car.",
+    "imagen": "./img/gol.jpg"
+  },
+  {
+    "id": "03",
+    "nombre": "Volkswagen Saveiro",
+    "precio": 23990,
+    "descripcion":
+      "With a unique design it supports all the demands of work.",
+    "imagen": "./img/saveiro.jpg"
+  },
+  {
+    "id": "04",
+    "nombre": "Volkswagen Bora",
+    "precio": 34990,
+    "descripcion":
+      "It has a 1984 cc gasoline engine with 4 cylinders located in line that reaches a maximum power of 116 CV at 5200 rpm",
+    "imagen": "./img/bora.jpg"
+  }
+]

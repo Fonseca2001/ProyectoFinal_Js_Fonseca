@@ -1,0 +1,1 @@
+Swal.fire('Dont drink while driving.')
