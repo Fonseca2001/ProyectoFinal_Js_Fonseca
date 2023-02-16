@@ -190,6 +190,39 @@ h2 {
   display: grid;
   grid-template-columns: 3fr 3fr 1fr 1fr;
 }
+.container {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.row {
+  background-color: rgb(177, 171, 221, 75%);
+  width: 100%;
+  display: flex;
+  margin: 10px;
+  padding: 25px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+.colText {
+  display: block;
+}
+.btn-outline-primary{
+  cursor: pointer;
+  scale: 1.1;
+  background-color: rgb(81, 92, 237);
+  border-color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.col img{
+  width: 50vh;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
 
 /* header */
 .header {
@@ -240,7 +273,7 @@ h2 {
 }
 @keyframes efectoTitulos {
   0%      {color: #ffffff;}
-  50%     {color: #293bc3;}
+  50%     {color: #11dc80;}
   100%    {color: rgb(177, 171, 221)}
 }
 
@@ -279,8 +312,11 @@ ul li a svg:hover { transform: scale(1.4);}
     display: flex;
     flex-wrap: wrap;
   }
+  .container{
+    margin-top: 400px;
+  }
   .contacto{
-    margin-top: 300px;
+    margin-top: 200px;
   }
   .producto{
     margin: 10px;
@@ -293,8 +329,11 @@ ul li a svg:hover { transform: scale(1.4);}
     display: flex;
     flex-wrap: wrap;
   }
+  .container{
+    margin-top: 1400px;
+  }
   .contacto{
-    margin-top: 1300px;
+    margin-top: 100px;
   }
   .producto > img {
     width: 100%;
